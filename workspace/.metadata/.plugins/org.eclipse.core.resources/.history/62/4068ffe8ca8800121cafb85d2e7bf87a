@@ -1,0 +1,12 @@
+package br.com.caelum.jdbc.modelo;
+
+import java.util.Calendar;
+
+public class Contato {
+	private long id;
+	private String nome;
+	private String emailString;
+	private String endereco;
+	private Calendar dataNascimento;
+	
+}
