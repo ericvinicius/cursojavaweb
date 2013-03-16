@@ -1,0 +1,26 @@
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+
+
+public class MinhaServlet extends HttpServlet {
+	
+	public void init (ServletConfig config) throws ServletException{
+		super.init(config);
+		log("Iniciando a servlet");
+		Print.out.println("lalalalal");
+	}
+	
+	public void destroy(){
+		super.destroy();
+		log("Destruindo a servlet");
+	}
+	
+	protected void service(HttpServletRequest req, HttpServletRequest res) throws IOException, ServletException {
+		
+	}
+
+}

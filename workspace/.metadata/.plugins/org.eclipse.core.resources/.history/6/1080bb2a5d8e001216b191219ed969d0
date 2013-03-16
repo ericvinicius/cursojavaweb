@@ -1,0 +1,16 @@
+import javax.servlet.http.HttpServlet;
+
+
+public class MinhaServlet extends HttpServlet {
+	
+	public void int init (ServletConfig config) throws ServletException{
+		super.init(config);
+		log("Iniciando a servlet");
+	}
+	
+	public void destroy(){
+		super.destroy();
+		log("Destruindo a servlet");
+	}
+
+}

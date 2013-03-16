@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Sat Mar 09 16:32:53 BRT 2013
+#Sat Mar 16 16:27:54 BRT 2013
+org.eclipse.jst.jee.server\:Projeto-Pessoal=/home/web3307/apache-tomcat-7.0.14/wtpwebapps/Projeto-Pessoal
 org.eclipse.jst.jee.server\:fj21-agenda=/home/web3307/apache-tomcat-7.0.14/wtpwebapps/fj21-agenda
