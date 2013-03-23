@@ -11,14 +11,13 @@
 <body>
 	<c:import url="cabecalho.jsp" />
 
-	<table border="2px">
+	<table>
 		<tr>
 			<th>ID</th>
 			<th>Nome</th>
 			<th>Email</th>
 			<th>Endereco</th>
 			<th>Data de Nascimento</th>
-			<th>Excluir?</th>
 		</tr>
 		<c:forEach var="contato" items="${lista}">
 			<tr>

@@ -9,9 +9,15 @@
 <title>Agenda de Contatos</title>
 </head>
 <body>
+<style type="text/css">
+table, tr, th, td{
+	border 2px solid black;
+}
+
+</style>
 	<c:import url="cabecalho.jsp" />
 
-	<table border="2px">
+	<table>
 		<tr>
 			<th>ID</th>
 			<th>Nome</th>

@@ -7,11 +7,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Agenda de Contatos</title>
+<style type="text/css">
+td{
+	border 2px solid black;
+}
+
+</style>
+
+
 </head>
 <body>
 	<c:import url="cabecalho.jsp" />
 
-	<table border="2px">
+	<table>
 		<tr>
 			<th>ID</th>
 			<th>Nome</th>

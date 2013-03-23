@@ -11,7 +11,7 @@
 <body>
 	<c:import url="cabecalho.jsp" />
 
-	<table border="2px">
+	<table border="2px solid green">
 		<tr>
 			<th>ID</th>
 			<th>Nome</th>
