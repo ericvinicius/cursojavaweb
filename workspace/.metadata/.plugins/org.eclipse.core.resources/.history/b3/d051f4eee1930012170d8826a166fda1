@@ -1,0 +1,11 @@
+import br.com.caelum.agenda.dao.ContatoDAO;
+import br.com.caelum.mvc.logica.Logica;
+
+
+class ListaContato implements Logica {
+	void executa(req, res){
+		ContatoDAO dao = new ContatoDAO();
+		
+		List<Contato> lista = dao.getLista();
+	}
+

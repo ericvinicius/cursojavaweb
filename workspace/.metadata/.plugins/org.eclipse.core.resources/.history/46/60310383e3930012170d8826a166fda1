@@ -1,0 +1,17 @@
+package br.com.caelum.mvc.logica;
+
+import br.com.caelum.agenda.dao.ContatoDAO;
+
+
+public class RemoveContatoLogic implements Logica {
+	public void executa(req, res){
+		String idstr = req.getParameter("id");
+		Long id = Long.parseLong(idstr);
+		ContatoDAO dao = new contatoDAO();
+		Contato contato = new Contato();
+		contato.setid(id);
+		dao.exclui(contato);
+		new ListaContato().executa(req, res);
+	}
+
+}

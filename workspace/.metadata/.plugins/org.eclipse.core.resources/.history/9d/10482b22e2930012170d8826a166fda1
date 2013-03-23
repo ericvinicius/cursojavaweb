@@ -1,0 +1,16 @@
+import javax.servlet.RequestDispatcher;
+
+import br.com.caelum.agenda.dao.ContatoDAO;
+import br.com.caelum.mvc.logica.Logica;
+
+
+class ListaContato implements Logica {
+	void executa(req, res){
+		ContatoDAO dao = new ContatoDAO();
+		
+		List<Contato> lista = dao.getLista();
+		req.setAtribute("lista", lista);
+		RequestDispatcher rd = req.getRequestDispatcher("lista-contatos-elegante.jsp");
+		rd.forward(req, res)
+	}
+

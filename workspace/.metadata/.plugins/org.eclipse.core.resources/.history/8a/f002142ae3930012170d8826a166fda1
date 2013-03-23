@@ -1,0 +1,9 @@
+package br.com.caelum.mvc.logica;
+
+
+public class RemoveContatoLogic implements Logica {
+	public void executa(req, res){
+		String idstr = req.getParameter("id");
+	}
+
+}

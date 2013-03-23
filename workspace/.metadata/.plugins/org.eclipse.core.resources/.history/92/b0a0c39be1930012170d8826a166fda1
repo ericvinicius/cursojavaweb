@@ -1,0 +1,6 @@
+import br.com.caelum.mvc.logica.Logica;
+
+
+class ListaContato implements Logica {
+	
+}

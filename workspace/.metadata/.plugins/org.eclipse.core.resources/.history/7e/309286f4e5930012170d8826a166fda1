@@ -1,0 +1,20 @@
+package br.com.caelum.mvc.logica;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.caelum.agenda.dao.ContatoDAO;
+import br.com.caelum.agenda.modelo.Contato;
+
+public class RemoveContatoLogic implements Logica {
+	public void executa(HttpServletRequest req, HttpServletResponse res) throws Exception {
+		String idstr = req.getParameter("id");
+		Long id = Long.parseLong(idstr);
+		ContatoDAO dao = new ContatoDAO();
+		Contato contato = new Contato();
+		contato.setid(id);
+		dao.exclui(contato);
+		new ListaContato().executa(req, res);
+	}
+
+}

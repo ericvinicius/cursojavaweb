@@ -1,0 +1,25 @@
+package br.com.caelum.mvc.logica;
+
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.caelum.agenda.dao.ContatoDAO;
+import br.com.caelum.agenda.modelo.Contato;
+
+class ListaContato implements Logica {
+	public void executa(HttpServletRequest req, HttpServletResponse res)
+			throws Exception {
+
+		ContatoDAO dao = new ContatoDAO();
+
+		List<Contato> lista = dao.getLista();
+		req.setAttribute("lista", lista);
+		RequestDispatcher rd = req
+				.getRequestDispatcher("lista-contatos-elegante.jsp");
+		rd.forward(req, res);
+
+	}
+}

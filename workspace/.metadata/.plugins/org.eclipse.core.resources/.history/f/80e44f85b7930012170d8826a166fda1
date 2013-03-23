@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="tesx/javascript" src="js/jquery-ui.js"></script>
+<link type="text/css" href="css/jquery.css" rel="stylesheet"/>
+</head>
+<body>
+	<form action="adicionaContato" method="post">
+		Nome: <input type="text" name="nome" /> <br />
+		E-mail: <input type="text" name="email" /> <br />
+		Endereço: <input type="text" name="endereco" /> <br />
+		<label for="dataNascimento">Data Nascimento: </label><input type="text" name="dataNascimento" id="dataNascimento" /> <br />
+		
+		<input type="submit" value="Gravar" />
+	</form>
+</body>
+</html>
