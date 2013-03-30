@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.agenda.dao.ContatoDAO;
 import br.com.caelum.agenda.modelo.Contato;
 
+import com.mysql.jdbc.Connection;
+
 public class AlteraContatoLogic {
 	public void executa(HttpServletRequest req, HttpServletResponse res) throws Exception{
 		
@@ -28,8 +30,12 @@ public class AlteraContatoLogic {
 		
 		contato.setDataNascimento(dataNascimento);
 		
-		ContatoDAO DAO = new ContatoDAO();
+		Connection connection = (Connection)req.getAttribute("conexao");
+		
+		ContatoDAO DAO = new ContatoDAO(connection);
 		DAO.atualiza(contato);
+		
+		
 		
 		RequestDispatcher rd = req.getRequestDispatcher("/lista-contatos-elegante.jsp");
 		rd.forward(req, res);

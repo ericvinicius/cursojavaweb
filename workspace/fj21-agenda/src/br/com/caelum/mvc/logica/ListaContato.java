@@ -6,16 +6,20 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.mysql.jdbc.Connection;
+
 import br.com.caelum.agenda.dao.ContatoDAO;
 import br.com.caelum.agenda.modelo.Contato;
 
 public class ListaContato implements Logica {
 	public void executa(HttpServletRequest req, HttpServletResponse res)
 			throws Exception {
+		
+		Connection connection = (Connection)req.getAttribute("conexao");
 
-		ContatoDAO dao = new ContatoDAO();
+		ContatoDAO DAO = new ContatoDAO(connection);
 
-		List<Contato> lista = dao.getLista();
+		List<Contato> lista = DAO.getLista();
 		req.setAttribute("lista", lista);
 		RequestDispatcher rd = req
 				.getRequestDispatcher("lista-contatos-elegante.jsp");

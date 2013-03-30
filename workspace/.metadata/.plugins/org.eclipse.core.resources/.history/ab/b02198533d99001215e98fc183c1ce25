@@ -1,0 +1,22 @@
+package br.com.caelum.agenda.filtro;
+
+import java.io.IOException;
+
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+import com.mysql.jdbc.Connection;
+
+public class FiltroConexao implements javax.servlet.Filter {
+	public void doFilte(ServletRequest requeste, ServletResponse response,
+			FilterChain chain) throws IOException, ServletException {
+		
+		try{
+			Connection connection = new ConnectionFactory().getConnection();
+		}
+		
+	}
+
+}

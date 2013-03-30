@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.agenda.dao.ContatoDAO;
 import br.com.caelum.agenda.modelo.Contato;
 
+import com.mysql.jdbc.Connection;
+
 public class AdicionaContatoServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) 
 		throws IOException, ServletException {  
@@ -45,8 +47,10 @@ public class AdicionaContatoServlet extends HttpServlet {
 		contato.setEndereco(endereco);
 		contato.setDataNascimento(dataNascimento);
 		
-		ContatoDAO dao = new ContatoDAO();
-		dao.adiciona(contato); 
+		Connection connection = (Connection)request.getAttribute("conexao");
+		
+		ContatoDAO DAO = new ContatoDAO(connection);
+		DAO.adiciona(contato); 
 
 		out.println("<html>");
 		out.println("<body>");

@@ -6,14 +6,19 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.agenda.dao.ContatoDAO;
 import br.com.caelum.agenda.modelo.Contato;
 
+import com.mysql.jdbc.Connection;
+
 public class RemoveContatoLogic implements Logica {
 	public void executa(HttpServletRequest req, HttpServletResponse res) throws Exception {
 		String idstr = req.getParameter("id");
 		Long id = Long.parseLong(idstr);
-		ContatoDAO dao = new ContatoDAO();
+		
+		Connection connection = (Connection)req.getAttribute("conexao");
+		
+		ContatoDAO DAO = new ContatoDAO(connection);
 		Contato contato = new Contato();
 		contato.setId(id);
-		dao.exclui(contato);
+		DAO.exclui(contato);
 		new ListaContato().executa(req, res);
 	}
 
