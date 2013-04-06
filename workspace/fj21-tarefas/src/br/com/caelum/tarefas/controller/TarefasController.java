@@ -2,16 +2,25 @@ package br.com.caelum.tarefas.controller;
 
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import br.com.caelum.tarefas.dao.JdbcTarefaDao;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 @Controller
 public class TarefasController {
+	
+	private final JdbcTarefaDao dao;
+	
+	@Autowired
+	public TarefasController(JdbcTarefaDao dao){
+		this.dao = dao;
+	}
 	
 	@RequestMapping("novaTarefa")
 	public String form(){
@@ -25,37 +34,46 @@ public class TarefasController {
 			return "tarefa/formulario";
 		}
 		
-		JdbcTarefaDao DAO = new JdbcTarefaDao();
-		DAO.adiciona(tarefa);
+		ModelAndView mv = new ModelAndView();
+		dao.adiciona(tarefa);
 		return "tarefa/adicionada";
 	}
 	
 	@RequestMapping("listaTarefas")
 	public String lista(Model model){
-		JdbcTarefaDao DAO = new JdbcTarefaDao();
-		model.addAttribute("tarefas", DAO.lista());
+		ModelAndView mv = new ModelAndView();
+		model.addAttribute("tarefas", dao.lista());
 		return "tarefa/lista";
 	}
 	
 	@RequestMapping("removeTarefa")
 	public String remove(Tarefa tarefa){
-		JdbcTarefaDao DAO = new JdbcTarefaDao();
-		DAO.remove(tarefa);
+		ModelAndView mv = new ModelAndView();
+		dao.remove(tarefa);
 		return "redirect:listaTarefas";
 	}
 	
 	@RequestMapping("mostraTarefa")
 	public String mostra(Long id, Model model){
-		JdbcTarefaDao DAO = new JdbcTarefaDao();
-		model.addAttribute("tarefa", DAO.buscaPorId(id));
+		ModelAndView mv = new ModelAndView();
+		model.addAttribute("tarefa", dao.buscaPorId(id));
 		return "tarefa/mostra";
 	}
 	
 	@RequestMapping("alteraTarefa")
 	public String altera(Tarefa tarefa){
-		JdbcTarefaDao DAO = new JdbcTarefaDao();
-		DAO.altera(tarefa);
+		ModelAndView mv = new ModelAndView();
+		dao.altera(tarefa);
 		return "redirect:listaTarefas";
+	}
+	
+	@RequestMapping("finalizaTarefa")
+	public String finaliza(Long id, Model model){
+		ModelAndView mv = new ModelAndView();
+		dao.finaliza(id);
+		Tarefa tarefa = dao.buscaPorId(id);
+		model.addAttribute("tarefa", tarefa);
+		return "tarefa/finalizada";
 	}
 	
 }

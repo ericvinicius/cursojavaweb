@@ -2,22 +2,29 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="316" key="DIALOG_WIDTH"/>
-		<item value="95" key="DIALOG_Y_ORIGIN"/>
-		<item value="493" key="DIALOG_X_ORIGIN"/>
+		<item value="98" key="DIALOG_Y_ORIGIN"/>
 		<item value="437" key="DIALOG_HEIGHT"/>
+		<item value="771" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="mv" key="selection"/>
 		<list key="findhistory">
+			<item value="DAO"/>
+			<item value="dao"/>
+			<item value="JdbcTarefaDao DAO = new JdbcTarefaDao();"/>
+			<item value="alterer"/>
 			<item value="${dao.lista}"/>
 		</list>
 		<list key="replacehistory">
+			<item value="mv"/>
+			<item value="ModelAndView mv = new ModelAndView();"/>
+			<item value="dao"/>
 			<item value="${lista}"/>
 		</list>
 	</section>

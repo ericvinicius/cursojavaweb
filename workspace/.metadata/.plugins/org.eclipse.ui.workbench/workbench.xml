@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="87" version="2.0">
+<workbench progressCount="69" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -14,7 +14,7 @@
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="84" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="152" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -23,6 +23,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -54,60 +55,57 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="lista-contatos-elegante.jsp" partName="lista-contatos-elegante.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/WebContent/lista-contatos-elegante.jsp" title="lista-contatos-elegante.jsp" tooltip="fj21-agenda/WebContent/lista-contatos-elegante.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/WebContent/lista-contatos-elegante.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="506" selectionTopPixel="119"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="formulario.jsp" partName="formulario.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/tarefa/formulario.jsp" title="formulario.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/formulario.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/formulario.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="444" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControllerServlet.java" partName="ControllerServlet.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/mvc/servlet/ControllerServlet.java" title="ControllerServlet.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/servlet/ControllerServlet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/mvc/servlet/ControllerServlet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="618" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TarefasController.java" partName="TarefasController.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/src/br/com/caelum/tarefas/controller/TarefasController.java" title="TarefasController.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/controller/TarefasController.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/src/br/com/caelum/tarefas/controller/TarefasController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1782" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlteraContatoLogic.java" partName="AlteraContatoLogic.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java" title="AlteraContatoLogic.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1022" selectionTopPixel="0"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="lista.jsp" partName="lista.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/tarefa/lista.jsp" title="lista.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/lista.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/lista.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="799" selectionTopPixel="119"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="adiciona-contato.jsp" partName="adiciona-contato.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/WebContent/adiciona-contato.jsp" title="adiciona-contato.jsp" tooltip="fj21-agenda/WebContent/adiciona-contato.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/WebContent/adiciona-contato.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="589" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaContato.java" partName="ListaContato.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/mvc/logica/ListaContato.java" title="ListaContato.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/ListaContato.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/mvc/logica/ListaContato.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="289" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemoveContatoLogic.java" partName="RemoveContatoLogic.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java" title="RemoveContatoLogic.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="521" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeiraLogica.java" partName="PrimeiraLogica.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/mvc/logica/PrimeiraLogica.java" title="PrimeiraLogica.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/PrimeiraLogica.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/mvc/logica/PrimeiraLogica.java"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="finalizada.jsp" partName="finalizada.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/tarefa/finalizada.jsp" title="finalizada.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/finalizada.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/finalizada.jsp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/WebContent/WEB-INF/web.xml" title="web.xml" tooltip="fj21-agenda/WebContent/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/WebContent/WEB-INF/web.xml"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="formulario-login.jsp" partName="formulario-login.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/formulario-login.jsp" title="formulario-login.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/formulario-login.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/formulario-login.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="415" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdicionaContatoServlet.java" partName="AdicionaContatoServlet.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/servlet/AdicionaContatoServlet.java" title="AdicionaContatoServlet.java" tooltip="fj21-agenda/src/br/com/caelum/servlet/AdicionaContatoServlet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/servlet/AdicionaContatoServlet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginController.java" partName="LoginController.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/src/br/com/caelum/tarefas/controller/LoginController.java" title="LoginController.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/controller/LoginController.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/src/br/com/caelum/tarefas/controller/LoginController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="836" selectionTopPixel="266"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="cabecalho.jsp" partName="cabecalho.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/WebContent/cabecalho.jsp" title="cabecalho.jsp" tooltip="fj21-agenda/WebContent/cabecalho.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/WebContent/cabecalho.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="377" selectionTopPixel="0"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="menu.jsp" partName="menu.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/menu.jsp" title="menu.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/menu.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/menu.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="362" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="AlteraContato.jsp" partName="AlteraContato.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/WebContent/AlteraContato.jsp" title="AlteraContato.jsp" tooltip="fj21-agenda/WebContent/AlteraContato.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/WebContent/AlteraContato.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="adicionada.jsp" partName="adicionada.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/tarefa/adicionada.jsp" title="adicionada.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/adicionada.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/adicionada.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="395" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FiltroTempoDeExecucao.java" partName="FiltroTempoDeExecucao.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-agenda/src/br/com/caelum/agenda/filtro/FiltroTempoDeExecucao.java" title="FiltroTempoDeExecucao.java" tooltip="fj21-agenda/src/br/com/caelum/agenda/filtro/FiltroTempoDeExecucao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-agenda/src/br/com/caelum/agenda/filtro/FiltroTempoDeExecucao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="304" selectionTopPixel="0"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="mostra.jsp" partName="mostra.jsp" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/views/tarefa/mostra.jsp" title="mostra.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/mostra.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/mostra.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="527" selectionTopPixel="62"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="tarefas.css" partName="tarefas.css" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/resources/css/tarefas.css" title="tarefas.css" tooltip="fj21-tarefas/WebContent/resources/css/tarefas.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/resources/css/tarefas.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="117" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="spring-context.xml" partName="spring-context.xml" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/WebContent/WEB-INF/spring-context.xml" title="spring-context.xml" tooltip="fj21-tarefas/WebContent/WEB-INF/spring-context.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/WebContent/WEB-INF/spring-context.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JdbcTarefaDao.java" partName="JdbcTarefaDao.java" path="/home/web3307/Desktop/cursojava21/workspace/fj21-tarefas/src/br/com/caelum/tarefas/dao/JdbcTarefaDao.java" title="JdbcTarefaDao.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/dao/JdbcTarefaDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj21-tarefas/src/br/com/caelum/tarefas/dao/JdbcTarefaDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="525" selectionTopPixel="209"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
@@ -122,6 +120,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -167,7 +168,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.jst.jsp.core.jspsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -251,9 +252,9 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2488372" ratioLeft="321" ratioRight="969" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6827372" ratioLeft="439" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.2992248" ratioLeft="386" ratioRight="904" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6998445" ratioLeft="450" ratioRight="193" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
@@ -397,168 +398,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-agenda/WebContent/lista-contatos-elegante.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-agenda/WebContent/adiciona-contato.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/br/com/caelum/mvc/logica/ListaContato.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/fj21-agenda/WebContent/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/br/com/caelum/mvc/servlet/AdicionaContatoServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/br/com/caelum/servlet/AdicionaContatoServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/br/com/caelum/mvc/servlet/ControllerServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-agenda/WebContent/cabecalho.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-agenda/WebContent/AlteraContato.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/FiltroTempoDeExecucao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-agenda/src/br/com/caelum/agenda/filtro/FiltroTempoDeExecucao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/formulario.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-tarefas/src/br/com/caelum/tarefas/controller/TarefasController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/adicionada.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/mostra.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-tarefas/WebContent/WEB-INF/views/menu.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/fj21-tarefas/WebContent/resources/css/tarefas.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/fj21-tarefas/WebContent/WEB-INF/spring-context.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-tarefas/src/br/com/caelum/tarefas/dao/JdbcTarefaDao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/finalizada.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/fj21-tarefas/WebContent/WEB-INF/views/formulario-login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj21-tarefas/src/br/com/caelum/tarefas/controller/LoginController.java"/>
 </editors>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="423" y="0"/>
+<item historyLabel="formulario.jsp" index="0">
+<position/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="461" y="4"/>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="1045" y="12"/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="328" y="91"/>
+<item historyLabel="formulario.jsp" index="0">
+<position info="not_deleted" x="724" y="0"/>
 </item>
-<item historyLabel="RemoveContatoLogic.java" index="3">
-<position info="not_deleted" x="521" y="0"/>
+<item historyLabel="spring-context.xml" index="6">
+<position info="not_deleted" x="8" y="0"/>
 </item>
-<item historyLabel="web.xml" index="4">
-<position info="not_deleted" x="1112" y="0"/>
-</item>
-<item historyLabel="adiciona-contato.jsp" index="1">
-<position info="not_deleted" x="589" y="0"/>
-</item>
-<item historyLabel="web.xml" index="4">
-<position info="not_deleted" x="1021" y="22"/>
-</item>
-<item historyLabel="AdicionaContatoServlet.java" index="5">
+<item historyLabel="JdbcTarefaDao.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="AdicionaContatoServlet.java" index="6">
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="581" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="560" y="10"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="581" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="560" y="10"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="1045" y="12"/>
+</item>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="560" y="10"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="401" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="560" y="10"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="401" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="560" y="10"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="401" y="0"/>
+</item>
+<item historyLabel="spring-context.xml" index="6">
+<position info="not_deleted" x="8" y="0"/>
+</item>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="973" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="613" y="0"/>
+</item>
+<item historyLabel="menu.jsp" index="4">
+<position info="not_deleted" x="282" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="613" y="0"/>
+</item>
+<item historyLabel="tarefas.css" index="5">
+<position info="not_deleted" x="117" y="0"/>
+</item>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="973" y="0"/>
+</item>
+<item historyLabel="menu.jsp" index="4">
+<position info="not_deleted" x="362" y="0"/>
+</item>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="973" y="0"/>
+</item>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="613" y="0"/>
+</item>
+<item historyLabel="adicionada.jsp" index="2">
+<position info="not_deleted" x="372" y="0"/>
+</item>
+<item historyLabel="finalizada.jsp" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="656" y="6"/>
+<item historyLabel="formulario.jsp" index="0">
+<position info="not_deleted" x="444" y="0"/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="328" y="91"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="656" y="6"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="559" y="6"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="698" y="48"/>
-</item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="328" y="91"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="697" y="0"/>
-</item>
-<item historyLabel="web.xml" index="4">
-<position info="not_deleted" x="1559" y="43"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="697" y="0"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="644" y="0"/>
-</item>
-<item historyLabel="ControllerServlet.java" index="7">
+<item historyLabel="mostra.jsp" index="3">
 <position info="not_deleted" x="655" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="695" y="0"/>
+<item historyLabel="formulario-login.jsp" index="9">
+<position info="not_deleted" x="641" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
+<item historyLabel="mostra.jsp" index="3">
 <position info="not_deleted" x="655" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="644" y="0"/>
+<item historyLabel="tarefas.css" index="5">
+<position info="not_deleted" x="117" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="665" y="0"/>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="401" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="698" y="0"/>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="1782" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="811" y="0"/>
+<item historyLabel="mostra.jsp" index="3">
+<position info="not_deleted" x="655" y="0"/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="328" y="91"/>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="web.xml" index="4">
-<position info="not_deleted" x="1602" y="0"/>
+<item historyLabel="tarefas.css" index="5">
+<position info="not_deleted" x="117" y="0"/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="8" y="24"/>
+<item historyLabel="JdbcTarefaDao.java" index="7">
+<position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="ControllerServlet.java" index="7">
-<position info="not_deleted" x="618" y="0"/>
+<item historyLabel="mostra.jsp" index="3">
+<position info="not_deleted" x="527" y="0"/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="8" y="24"/>
+<item historyLabel="TarefasController.java" index="1">
+<position info="not_deleted" x="1782" y="0"/>
 </item>
-<item historyLabel="ListaContato.java" index="2">
-<position info="not_deleted" x="289" y="0"/>
+<item historyLabel="adicionada.jsp" index="2">
+<position info="not_deleted" x="436" y="0"/>
 </item>
-<item historyLabel="AdicionaContatoServlet.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="LoginController.java" index="10">
+<position info="not_deleted" x="836" y="12"/>
 </item>
-<item historyLabel="web.xml" index="4">
-<position info="not_deleted" x="1602" y="0"/>
+<item historyLabel="formulario-login.jsp" index="9">
+<position info="not_deleted" x="415" y="0"/>
 </item>
-<item historyLabel="cabecalho.jsp" index="8">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="lista-contatos-elegante.jsp" index="0">
-<position info="not_deleted" x="1194" y="0"/>
-</item>
-<item historyLabel="cabecalho.jsp" index="8">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="lista-contatos-elegante.jsp" index="0">
-<position info="not_deleted" x="506" y="0"/>
-</item>
-<item historyLabel="AlteraContato.jsp" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="589" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="644" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="809" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="807" y="0"/>
-</item>
-<item historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="500" y="0"/>
-</item>
-<item historyLabel="web.xml" index="4">
-<position info="not_deleted" x="1447" y="0"/>
-</item>
-<item historyLabel="cabecalho.jsp" index="8">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item active="true" historyLabel="FiltroTempoDeExecucao.java" index="11">
-<position info="not_deleted" x="500" y="0"/>
+<item active="true" historyLabel="adicionada.jsp" index="2">
+<position info="not_deleted" x="436" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -580,54 +580,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FiltroTempoDeExecucao.java" tooltip="fj21-agenda/src/FiltroTempoDeExecucao.java">
-<persistable path="/fj21-agenda/src/FiltroTempoDeExecucao.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JdbcTarefaDao.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/dao/JdbcTarefaDao.java">
+<persistable path="/fj21-tarefas/src/br/com/caelum/tarefas/dao/JdbcTarefaDao.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="AlteraContato.jsp" tooltip="fj21-agenda/WebContent/AlteraContato.jsp">
-<persistable path="/fj21-agenda/WebContent/AlteraContato.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="spring-context.xml" tooltip="fj21-tarefas/WebContent/WEB-INF/spring-context.xml">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/spring-context.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="cabecalho.jsp" tooltip="fj21-agenda/WebContent/cabecalho.jsp">
-<persistable path="/fj21-agenda/WebContent/cabecalho.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="tarefas.css" tooltip="fj21-tarefas/WebContent/resources/css/tarefas.css">
+<persistable path="/fj21-tarefas/WebContent/resources/css/tarefas.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdicionaContatoServlet.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/servlet/AdicionaContatoServlet.java">
-<persistable path="/fj21-agenda/src/br/com/caelum/mvc/servlet/AdicionaContatoServlet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="mostra.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/mostra.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/mostra.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="fj21-agenda/WebContent/WEB-INF/web.xml">
-<persistable path="/fj21-agenda/WebContent/WEB-INF/web.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="adicionada.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/adicionada.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/adicionada.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContatoDAO.java" tooltip="fj21-agenda/src/br/com/caelum/agenda/dao/ContatoDAO.java">
-<persistable path="/fj21-agenda/src/br/com/caelum/agenda/dao/ContatoDAO.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="ok.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/ok.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/ok.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeiraLogica.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/PrimeiraLogica.java">
-<persistable path="/fj21-agenda/src/br/com/caelum/mvc/logica/PrimeiraLogica.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutorizadorInterceptor.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/interceptor/AutorizadorInterceptor.java">
+<persistable path="/fj21-tarefas/src/br/com/caelum/tarefas/interceptor/AutorizadorInterceptor.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemoveContatoLogic.java" tooltip="fj21-agenda/src/RemoveContatoLogic.java">
-<persistable path="/fj21-agenda/src/RemoveContatoLogic.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="menu.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/menu.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/menu.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaContato.java" tooltip="fj21-agenda/src/ListaContato.java">
-<persistable path="/fj21-agenda/src/ListaContato.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginController.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/controller/LoginController.java">
+<persistable path="/fj21-tarefas/src/br/com/caelum/tarefas/controller/LoginController.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="adiciona-contato.jsp" tooltip="fj21-agenda/WebContent/adiciona-contato.jsp">
-<persistable path="/fj21-agenda/WebContent/adiciona-contato.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="formulario-login.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/formulario-login.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/formulario-login.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Contato.java" tooltip="fj21-agenda/src/br/com/caelum/agenda/modelo/Contato.java">
-<persistable path="/fj21-agenda/src/br/com/caelum/agenda/modelo/Contato.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="finalizada.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/finalizada.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/finalizada.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="AlteraContato.jsp" tooltip="fj21-agenda/WebContent/WEB-INF/AlteraContato.jsp">
-<persistable path="/fj21-agenda/WebContent/WEB-INF/AlteraContato.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="fj21-tarefas/WebContent/WEB-INF/web.xml">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/web.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlteraContatoLogic.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java">
-<persistable path="/fj21-agenda/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="size.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/modelo/size.java">
+<persistable path="/fj21-tarefas/src/br/com/caelum/tarefas/modelo/size.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControllerServlet.java" tooltip="fj21-agenda/src/br/com/caelum/mvc/logica/ControllerServlet.java">
-<persistable path="/fj21-agenda/src/br/com/caelum/mvc/logica/ControllerServlet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tarefa.java" tooltip="fj21-tarefas/src/br/com/caelum/tarefas/modelo/Tarefa.java">
+<persistable path="/fj21-tarefas/src/br/com/caelum/tarefas/modelo/Tarefa.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="primeira-logica.jsp" tooltip="fj21-agenda/WebContent/primeira-logica.jsp">
-<persistable path="/fj21-agenda/WebContent/primeira-logica.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="lista.jsp" tooltip="fj21-tarefas/WebContent/WEB-INF/views/tarefa/lista.jsp">
+<persistable path="/fj21-tarefas/WebContent/WEB-INF/views/tarefa/lista.jsp"/>
 </file>
 </mruList>
 </workbench>
